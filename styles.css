@@ -176,8 +176,9 @@ body::before {
 .profile-image {
   display: block;
   width: 100%;
-  aspect-ratio: 1 / 1;
+  height: 210px;
   object-fit: cover;
+  object-position: center 18%;
   border-radius: 18px;
 }
 
@@ -380,5 +381,9 @@ body::before {
   .timeline li {
     grid-template-columns: 1fr;
     gap: 8px;
+  }
+
+  .profile-image {
+    height: 170px;
   }
 }
